@@ -3,6 +3,8 @@ package com.aspirants.microservices.limitservice;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+
+//First change in Configuration.java
 @Component
 @ConfigurationProperties("limits-service")
 public class Configuration {
